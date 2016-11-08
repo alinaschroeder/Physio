@@ -14,7 +14,7 @@ h1{text-align:center;}
 body{
    color:white;
    font-family: Geneva, Tahoma, Verdana, sans-serif;
-   background-color: #191970;}
+   background-color: black;}
 .citation{text-decoration: underline;
            font-size:25px;
            text-align:left;}
@@ -22,9 +22,41 @@ body{
             }
 img{display:block;
     margin-left:auto;
-    margin-right:auto}</style>
+    margin-right:auto}
+
+#header{
+    background: url("http://cdn.shopify.com/s/files/1/0204/1652/files/banner-nerves_97a41ce0-511a-4ef9-bf21-a40b6f4e23f5.jpg?1039");
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    right: 0px;
+    width: 120%;
+    height: 200px;
+    z-index: -1;
+}
+
+#send_home{
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+#send_home:hover{
+  background-color: gray;
+}
+
+</style>
 <body>
-<h1>Clinical Relevance</h1>
+  <div id="header">
+      <div style="position:relative;width:100%; height:100%;">
+        <div style="position:absolute;bottom:-20px;left:20px; color:white; font-size:100px;">Clinical Relevance</div>
+      </div>
+    </div>
+    <div style="height:250px;">
+    </div>
 <h1 class="minititles">Signs and Symptoms </h1>
 <p>The symptoms and signs of Huntington’s disease consist of motor, cognitive, and psychiatric disturbances throughout the body [1]. The disease starts out as small twitches at distal extremities, like toes and fingers, and gradually increases to where the patient’s walking becomes unstable. If the disease remains untreated, the motor symptoms increase to a point where unwanted movement spreads to the other muscles. The psychiatric symptoms are usually present in the early stages and prior to the onset of motor symptoms. Depression, irritability, and suicidal tendencies are frequently the early psychiatric symptoms of Huntington’s disease [1]. Cognitive decline can be apparent long before the motor symptoms takes shape. However, it can be very mild in far advance stages of the diseases. Cognitive decline leads to the loss of flexibility in the mind and the patient can no longer make the mental adjustments needed for day to day activities.</p>
 <p>The diagnosis of Huntington’s disease first starts off with a detailed history of the patient’s symptoms and a detailed family history [1]. With all the information needed, the diagnosis is not difficult. Imaging, blood tests, and other diagnostic tools are not helpful in diagnosing Huntington’s disease. Brain volume and connections slowly change as the disease progresses. A MRI scan is only helpful when clinical manifestation is present. Therefore, more studies are now focusing on the changes in a MRI scan of the brain before the manifestation. Differential diagnosis is important when evaluating patients who have been wrongly diagnosis and/or does not have the Huntington’s mutation on chromosome 4 [2]. However, differential diagnosis can be complex and lead to unnecessary and expensive procedures [3].</p>
@@ -43,6 +75,11 @@ img{display:block;
 [7]	“XENAZINE® (tetrabenazine) Tablets | Healthcare Providers Prescribing Information.” [Online]. Available: https://www.xenazineusa.com/HCP/AboutHDChorea. [Accessed: 06-Nov-2016].</br>
 [8]	T. ePainAssist, “Huntington’s Disease|Causes|Symptoms|Treatment|Home Remedies,” ePainAssist, 21-May-2015. [Online]. Available: http://www.epainassist.com/genetic-disorders/huntingtons-disease. [Accessed: 06-Nov-2016].</br>
 
+<center>
+  <div id="send_home" onClick="window.location='home';">
+    home
+  </div>
+</center>
 
 </body>
 </html>

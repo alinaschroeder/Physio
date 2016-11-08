@@ -15,16 +15,51 @@ body{text-align:left;
    font-family: Geneva, Tahoma, Verdana, sans-serif;}
    p{text-align:left;}
    h1{text-align:center;}
-body{background-color: #191970;}
+body{background-color: black;}
 .minititles{font-size: 21px;
             }
            .citation{text-decoration: underline;
            font-size:25px;
            text-align:left;}
+           img{display:block;
+    margin-left:auto;
+    margin-right:auto
+
+  }
+  #header{
+  background: url("http://cdn.shopify.com/s/files/1/0204/1652/files/banner-nerves_97a41ce0-511a-4ef9-bf21-a40b6f4e23f5.jpg?1039");
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    right: 0px;
+    width: 120%;
+    height: 200px;
+    z-index: -1;
+}
+
+#send_home{
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+#send_home:hover{
+  background-color: gray;
+}
+
 </style>
 <body>
-<h1>Relevant Physiology</h1>
-<img src="http://www.macalester.edu/academics/psychology/whathap/ubnrp/dopahypoweb04/basalganglia.GIF" alt="Image of the Brain" >
+   <div id="header">
+      <div style="position:relative;width:100%; height:100%;">
+        <div style="position:absolute;bottom:-20px;left:20px; color:white; font-size:100px;">Relevant Physiology</div>
+      </div>
+    </div>
+    <div style="height:250px;">
+    </div>
+<img src="http://www.macalester.edu/academics/psychology/whathap/ubnrp/dopahypoweb04/basalganglia.GIF" width="300" height="400" alt="Image of the Brain" >
 <p>The basal ganglia are a group of nuclei that sit at the base of the forebrain.  The basal ganglia are associated with many functions including voluntary motor control, eye movement and cognitive and emotional functions. “Basal ganglia” is a term that encompases the striatum, the globus pallidus, the substantia nigra, and the subthalamic nucleus [1].
 Functions of the basal ganglia:</p>
 <p>The basal ganglia is necessary to enable practiced motor acts and in gating the initiation of voluntary movements. They are also involved in selecting and enabling cognitive and emotional programs stored in cortical areas. It seems that the basal ganglia, specifically the striatum, is also involved in certain types of learning [2].</p>
@@ -34,13 +69,13 @@ Functions of the basal ganglia:</p>
 <p>The globus pallidus and the substantia nigra are the major output structures within the basal ganglia. These structures make GABAergic inhibitory connections on their targets.
 The subthalamic nucleus receives information from the cerebral cortex and sends information to the globus pallidus. It is part of the purely excitatory pathway within the basal ganglia [2]. It makes glutaminergic, excitatory connections on both segments of the globus pallidus and the substantia nigra pars reticula [2].The substantia nigra has two functions: inhibiting the function of the thalamus and production of dopamine.
 </p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Basal_ganglia_circuits.svg" alt="Basal Ganglia" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Basal_ganglia_circuits.svg" width="400" height="900"alt="Basal Ganglia" >
 <figcaption>This diagram shows the main circuits of the basal ganglia. Two coronal slices have been superimposed to include the involved basal ganglia structures. The + and - signs at the point of the arrows indicate whether the pathway is excitatory or inhibitory, respectively, in effect. Green arrows refer to excitatory glutamatergic pathways, red arrows refer to inhibitory GABAergic pathways and turquoise arrows refer to dopaminergic pathways that are excitatory on the direct pathway and inhibitory on the indirect pathway. [3]
 </figcaption>
 <h1 class="minititles">Pathways in the basal ganglia:</h1>
 <p>There are 2 pathways within the basal ganglia, the direct pathway and the indirect pathway.  The direct pathway excites thalamic neurons, which then excites cortical neurons. The indirect pathway has the opposite effect and inhibits the thalamic neurons. In a normally functioning brain, there is a balance between these 2 pathways.
 </p>
-<p>The direct pathway is when cells in the striatum make inhibitory connections with cells in the internal part of the globus pallidus [2]. The cells in the globus pallidus then make inhibitory connections on cell in the thalamus. Firing of the globus pallidus neurons inhibits the thalamus, but the inhibition of the neurons causes the thalamic neurons to be released from inhibition. Now the thalamic neurons are free to fire and excite the cortex.</p>
+<p>The direct pathway is when cells in the striatum make inhibitory connections with cells in the internal part of the globus pallidus [2]. The cells in the globus pallidus then make inhibitory connections on the cells in the thalamus. Firing of the globus pallidus neurons inhibits the thalamus, but the inhibition of the neurons causes the thalamic neurons to be released from inhibition. Now the thalamic neurons are free to fire and excite the cortex.</p>
 <p>The indirect pathway is when different cells in the striatum make inhibitory connections with the external part of the globus pallidus. Those cells then make inhibitory connections with cells in the subthalamic nucleus. Then those cells make excitatory connections to cells on the internal part of the globus pallidus. Like previously said, firing of these neurons will inhibit the thalamus, so in the indirect pathway a net inhibition on the motor cortex is produced [2].
 </p>
 <h1 class="citation">Citations</h1>
@@ -48,5 +83,12 @@ The subthalamic nucleus receives information from the cerebral cortex and sends 
 </br>
 [2]“Basal Ganglia (Section 3, Chapter 4) Neurosciene Online: An Electronic Textbook for the Neurosciences | Department of Neurobiology and Anatomy - The University of Texas Medical School at Houston.” [Online]. Available: http://neuroscience.uth.tmc.edu/s3/chapter04.html. [Accessed: 18-Oct-2016].</br>
 [3]      	“The Role of the Basal Ganglia in Movement.” [Online]. Available: https://www.boundless.com/physiology/textbooks/boundless-anatomy-and-physiology-textbook/peripheral-nervous-system-13/motor-pathways-135/the-role-of-the-basal-ganglia-in-movement-724-8216/. [Accessed: 18-Oct-2016].</br>
+
+<center>
+  <div id="send_home" onClick="window.location='home';">
+    home
+  </div>
+</center>
+
 </body>
 </html>

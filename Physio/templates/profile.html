@@ -6,29 +6,53 @@
 </head>
 
 <style>
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
 @font-face {
   font-family: "Kimberley";
   src: url(http://www.princexml.com/fonts/larabie/ »
   kimberle.ttf) format("truetype");
 }
-    .options{
+.options{
     color:white;
     font-size: 28px;
     line-height: 200%;
     text-align:center;
     position:relative;
     top:20px;
-    font-family: Geneva, Tahoma, Verdana, sans-serif;}
-    .title{
-    text-align:center;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+    font-family: 'Exo', sans-serif;
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    background-color: rgba(255,255,255, 1);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    width: 300px;
+    margin-bottom: 20px;
+    /* ^ change margin to get a different spacing in your buttons */
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+.options:hover{
+  background-color: rgba(255,255,255, 0.3);
+}
+.title{
     position:relative;
-    top:40px;
+    top:0px;
     color:white;
-    text-align:center;
-    font-size: 35px;
+    text-align:right;
+    font-size: 45px;
     line-height: 200%;
-    font-family: "Kimberley", sans-serif;
-   }
+    /*font-family: "Kimberley", sans-serif;*/
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    margin-bottom: -10px;
+    margin-left: 30px;
+  }
    .names{
    color: white;
    text-align:center;
@@ -36,24 +60,54 @@
    top:40px;
    font-size:20px;
    font-family: Geneva;
-   font-family: "Kimberley", sans-serif}
-   body{ background-image: url('https://j.gifs.com/Lg56Rp.gif');
+   font-family: "Kimberley", sans-serif;
+   font-family: 'Exo', sans-serif;
+ }
+
+   body{ background-image: url('https://j.gifs.com/y8JmOz.gif');
    background-size:cover;
    background-position: center;
-   background-position: 0px -80px;
+   background-position: -200px -20px;
 )
+button{background:#422;
+    border:2px solid #0ff;
+    border-radius:4px;
+    border-radius:4px;
+    color:#0ff;
+    display:inline-block;
+    padding:12px 24px;
+    font:normal 400 24px/1 "Roboto", sans-serif;
+    text-align:center;
+    text-shadow:none;}
 
+#send_home{
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+#send_home:hover{
+  background-color: gray;
+}
+
+#ul_pos{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 </style>
     <body>
         <h1 class="title">Hunington's Disease</h1>
-        <ul align="center">
+        <ul id="ul_pos" align="right">
         <li><a href="/background" class="options">Relevant Physiology </a></li>
         <li><a href="/pathophysiology" class="options">Pathophysiology</a></li>
         <li><a href="/clinical" class="options">Clinical Relevance</a></li>
         <li><a href="/research" class="options">Recent Research</a></li>
+            <li><a href="/opinion" class="options">Opinions</a></li>
             </ul>
-        <h1 class="names">By: Anamika Chourasia, Sarah Morales, </h1>
-        <h1 class="names">Fatema Nagib, Alina Schroeder</h1>
     </body>
 </html>

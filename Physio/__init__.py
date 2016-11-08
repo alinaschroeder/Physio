@@ -25,5 +25,9 @@ def fourthpage():
 def fifthpage():
     return render_template("research.html")
 
+@app.route("/opinion")
+def sixthpage():
+    return render_template("opinion.html")
+
 if __name__ == "__main__":
     app.run()

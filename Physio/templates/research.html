@@ -4,7 +4,80 @@
     <meta charset="UTF-8">
     <title>research</title>
 </head>
+<style>
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/ »
+  kimberle.ttf) format("truetype");
+}
+h1{text-align:center;}
+body{
+   color:white;
+   font-family: Geneva, Tahoma, Verdana, sans-serif;
+   background-color: black;}
+.citation{text-decoration: underline;
+           font-size:25px;
+           text-align:left;}
+img{display:block;
+    margin-left:auto;
+    margin-right:auto}
+
+#header{
+    background: url("http://cdn.shopify.com/s/files/1/0204/1652/files/banner-nerves_97a41ce0-511a-4ef9-bf21-a40b6f4e23f5.jpg?1039");
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    right: 0px;
+    width: 120%;
+    height: 200px;
+    z-index: -1;
+}
+#symptoms_image{
+  width:500px;
+}
+
+#send_home{
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+#send_home:hover{
+  background-color: gray;
+}
+</style>
 <body>
+  <div id="header">
+      <div style="position:relative;width:100%; height:100%;">
+        <div style="position:absolute;bottom:-20px;left:20px; color:white; font-size:100px;">Recent Research</div>
+      </div>
+    </div>
+    <div style="height:250px;">
+    </div>
+<p>Since Huntington’s disease is a monogenic disease, its treatment can result from a modification of a single gene. Therefore, genetic engineering would be a viable treatment method. CRISPR-Cas systems have been researched and tested in order to edit genomes[1].  The CRISPR-Cas system performs targeted, highly efficient alterations of genome sequences and gene expression. This would prove to be useful in treating Huntington’s since the symptoms are all caused by a mutation in one gene. Using a virus to deliver the CRISPR-cas system researchers at neuroscientist Nicole Déglon’s of the University of Lausanne in Switzerland lab, were able to successfully limit protein aggregation of the misfolded protein huntingtin. The mice that received therapy had CRISPR “cassette” which included the DNA for the gene editing Cas9 as well as the RNA needed to target the huntingtin gene. Imaging of the brain of the mice showed that after only three weeks in the study the mice that had received therapy had little to no aggregation of the misfolded huntingtin protein [1].
+</p>
+<img id="symptoms_image" src="http://www.sciencemag.org/sites/default/files/styles/article_main_large/public/images/sn-CRISPRandHD_0.png?itok=bSV4JxSR" alt="Signs and Symptoms Image" >
+<p>In another study, Cells were transfected with gRNAs nucleases and were aimed at the mutant gene. These nucleases help rapidly, effectively, and easily modify erroneous genes, such as the genes in Huntington’s disease [2]. The mutant gene was identified as being at the PAM site.  A large deletion between the PAM sites caused the abnormal length of the CAG repeat to be removed [2].  This prevented the toxic version of the HTT protein from accumulating.
+</p>
+<p>Antisense oligonucleotides may also be a viable way to treat the genetic mutation that causes Huntington’s rather than simply alleviating the symptoms [20]. An oligonucleotide is a single stranded, relatively short DNA molecule that can be delivered into cells in order to knock down the mutant huntingtin protein [21].  By modifying antisense oligonucleotides in the CAG repeat, the mutant huntingtin gene can be eliminated.  It has already been proven in vitro that antisense oligonucleotides impair translation and decrease the aggregation of huntingtin protein.  It has also been proven in vitro that the antisense oligonucleotides can specifically target certain alleles.  Translating the gene into human studies is currently in research.  This treatment is mildly toxic and has side effects of hyperglycemia and elevated liver enzymes [22].  The target tissue for the antisense oligonucleotides is the striatum.  Being able to deliver the oligonucleotides to the striatum is another area of research because they have to get past the blood brain barrier and they have to be able to gain access to neurons [22].
+
+</p>
+
+<h1 class="citation">Citations</h1>
+[1] H. Armitage, "Gene-editing method halts production of brain-destroying proteins", Science | AAAS, 2016. [Online]. Available: http://www.sciencemag.org/news/2015/10/gene-editing-method-halts-production-brain-destroying-proteins. [Accessed: 06- Nov- 2016].</br>
+[2] J. D. Sander and J. K. Joung, “CRISPR-Cas systems for editing, regulating and targeting genomes,” Nat. Biotechnol., vol. 32, no. 4, pp. 347–355, Apr. 2014.</br>
+[3] D. Waldron, “Genetic engineering: Allele-specific genome editing of disease loci,” Nat. Rev. Genet., vol. 17, no. 11, pp. 660–660, Nov. 2016. </br>
+[4] N. Dias and C. A. Stein, “Antisense Oligonucleotides: Basic Concepts and Mechanisms,” Mol. Cancer Ther., vol. 1, no. 5, pp. 347–355, Mar. 2002.</br>
+[5] N. Aronin and M. DiFiglia, “Huntingtin-lowering strategies in Huntington’s disease: Antisense oligonucleotides, small RNAs, and gene editing,” Mov. Disord., vol. 29, no. 11, pp. 1455–1461, Sep. 2014.</br>
+
+<center>
+  <div id="send_home" onClick="window.location='home';">
+    home
+  </div>
+</center>
 
 </body>
 </html>

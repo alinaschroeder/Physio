@@ -14,16 +14,47 @@ h1{text-align:center;}
 body{
    color:white;
    font-family: Geneva, Tahoma, Verdana, sans-serif;
-   background-color: #191970;}
+   background-color: black;}
 .citation{text-decoration: underline;
            font-size:25px;
            text-align:left;}
 img{display:block;
     margin-left:auto;
     margin-right:auto}
+
+      #header{
+  background: url("http://cdn.shopify.com/s/files/1/0204/1652/files/banner-nerves_97a41ce0-511a-4ef9-bf21-a40b6f4e23f5.jpg?1039");
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    right: 0px;
+    width: 120%;
+    height: 200px;
+    z-index: -1;
+}
+
+#send_home{
+  display: inline-block;
+  padding: 15px 25px 15px 25px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+#send_home:hover{
+  background-color: gray;
+}
+
 </style>
 <body>
-<h1>Pathophysiology</h1>
+  <div id="header">
+      <div style="position:relative;width:100%; height:100%;">
+        <div style="position:absolute;bottom:-20px;left:20px; color:white; font-size:100px;">Pathophysiology</div>
+      </div>
+    </div>
+    <div style="height:250px;">
+    </div>
 <p>Huntington's Disease is a hereditary disease that is caused by the breakdown of nerve cells.  This hereditary disease is found on the short arm of chromosome 4.  This is an autosomal dominant inherited disorder that is broken down into two different categories depending on if the disease was inherited from the mother or father.  Due to the instability of the Huntington’s Disease allele during spermatogenesis, the Juvenile Huntington's disease, inherited from the father, has an onset that is much earlier on in life while if the disease is inherited from the mother, the onset is usually after the age of twenty.  Why this happens is attributed to the CAG repeat length.  The abnormal length of Cysteine-adenosine-guanine (CAG) repeat is what is identified as the genetic basis of Huntington’s Disease[1].  The CAG repeat is a code for a polyglutamine tract in the N-terminus of a protein product.  This protein product is called huntingtin.  The length of the CAG repeat has an inverse relation with age, accounting for the different onsets of the disease[2].  The CAG repeat length can range from 30-70 repeats for patients with Huntington's Disease[2].  These N-terminal fragments of huntingtin is found within the cell nucleus in the brain of patients. </p>
 <p>Huntington's Disease is associated with cell loss in the basal ganglia and cortex.  The basal ganglia is associated with the control of movement which explains some of the symptoms of this disease such as involuntary movement.  There are different stages of Huntington's disease.  They are marked from stages 0-4.  As the disease gets worse, more and more regions become affected.  These regions are the globus pallidus, thalamus, subthalamic nucleus, substantia nigra, and the cerebellum [3].  The disease starts though with atrophy of the striatum, the primary input to the basal ganglia.  The caudate and putamen, part of the striatum, experience gross atrophy [3].  In the caudate, the loss of neurons first occurs at the caudal and then to the rostral end and also from dorsal to ventral [4].  This is why problems with walking are usually one of the beginning symptoms.  Medium spiny projection neurons are also lost with this disease [4].  These medium spiny projection neurons excite the basal ganglia output structure.  These neurons express dopamine, glutamate, and adenosine receptors.  The loss of dopamine receptors plays a role in cognitive processes such as learning and memory which explains some of the cognitive symptoms associated with Huntington’s Disease[5].  </p>
 <img src="http://img.medscape.com/article/759/292/759292-fig1.jpg" alt="Basal Ganglia" >
@@ -37,5 +68,12 @@ img{display:block;
 [6]	F. Revilla, “Huntington Disease: Background, Pathophysiology, Etiology,” Aug. 2016.</br>
 [7]	“Johns Hopkins Department of Pathology: Division of Neuropathology.” [Online]. Available: http://pathology.jhu.edu/department/divisions/neuropathology/research-huntingtons.cfm. [Accessed: 18-Oct-2016].</br>
 [8]	“Huntington Disease: Pathophysiology and Diagnosis,” Medscape. [Online]. Available: http://www.medscape.com/viewarticle/759292. [Accessed: 06-Nov-2016].</br>
+
+<center>
+  <div id="send_home" onClick="window.location='home';">
+    home
+  </div>
+</center>
+
 </body>
 </html>
